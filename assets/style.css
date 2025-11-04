@@ -1,1 +1,10 @@
-di
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.play{
+    border: none;
+    font-size: 30px;
+    font-family: "Cinzel", serif;
+}
