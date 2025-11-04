@@ -2,9 +2,13 @@ body{
     display: flex;
     justify-content: center;
 }
-
+.buttonholder{
+    margin: 40px;
+}
 .play{
     border: none;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Cinzel", serif;
+    padding: 5px 50px;
+    box-shadow: 0 0px 5px 0 rgba(0,0,0,0.6);
 }
