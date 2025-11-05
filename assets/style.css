@@ -4,6 +4,7 @@ body{
 }
 .buttonholder{
     margin: 40px;
+
 }
 .play{
     border: none;
@@ -11,4 +12,24 @@ body{
     font-family: "Cinzel", serif;
     padding: 5px 50px;
     box-shadow: 0 0px 5px 0 rgba(0,0,0,0.6);
+}
+#volumeBtns{
+       display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px;
+    
+    }
+#higher, #lower{
+    font-size:40px ;
+    margin-right: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 11, 18, 0.407);
+    font-family: "Cinzel", serif;
+    padding:0px 30px;
+    border: none;
+    
+}
+#higher:active, #lower:active{
+     box-shadow: 10px 10px 10px 10px rgba(215, 11, 11, 0.677);  
 }
